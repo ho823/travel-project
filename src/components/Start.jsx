@@ -12,15 +12,15 @@ import styles from './Start.module.css'
 
 const items = [
   {
-    src:"https://images.unsplash.com/photo-1540544660406-6a69dacb2804?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=831&q=80",
+    src:"https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1093&q=80",
     id: 1,
   },
   {
-    src:"https://images.unsplash.com/photo-1588025383511-12fe4bb4aaf0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80",
+    src:"https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-1.2.1&auto=format&fit=crop&w=1008&q=80",
     id: 2,
   },
   {
-    src:"https://images.unsplash.com/photo-1478382188900-5bb598fe27d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80",
+    src:"https://images.unsplash.com/photo-1473163928189-364b2c4e1135?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     id: 3,
   }
 ];
@@ -62,9 +62,7 @@ const Start = (props) => {
       <style>
         {
           `.custom-tag {
-              max-width: 100%;
               height: 100vh;
-              
             }`
         }
       </style>
@@ -74,12 +72,10 @@ const Start = (props) => {
         next={next}
         previous={previous}
       >
-        {/* <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex}/> */}
-        <Button tag={Link} to="/map" size="lg"className={styles.button}>Let's go !</Button>
+        <Button tag={Link} to="/map" size="lg"className={styles.button} color="info">Let's go !</Button>
         {slides}
-        {/* <h1 className={styles.h1}>coucou</h1> */}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+        <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} className={styles.arrowCarousel} />
+        <CarouselControl direction="next" directionText="Next" onClickHandler={next} className={styles.arrowCarousel} />
       </Carousel>
     </div>
   );

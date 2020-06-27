@@ -1,17 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
 .photo {
   width: 160px;
 }
 
 .containerBouton {
   text-align: center;
-  margin-top: 6rem;
-  font-family: 'Love Ya Like A Sister', cursive !important;
+  margin-top: 4rem;
+  font-family: 'East Sea Dokdo' !important;
 }
 
 .buttonFinish {
   border-radius:50px !important;
-  background-color:#811453 !important;
-  font-size : 30px !important;
+  font-size : 2rem !important;
 }
 
 .containerTitle {
@@ -22,14 +24,15 @@
   margin-top: 3rem;
 }
 .h1 {
-  font-family: 'Love Ya Like A Sister', cursive !important;
+  font-family: 'East Sea Dokdo' !important;
   color:white;
-  font-size : 3rem;
+  font-size : 4rem;
 
 }
 .h2 {
   margin-top: 4rem !important;
-  font-family: 'Love Ya Like A Sister', cursive !important;
+  font-family:  'Livvic' !important;
+  font-weight: bold;
   color: beige;
   font-size: 3rem;
 }

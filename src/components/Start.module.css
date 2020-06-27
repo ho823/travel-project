@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+
 .ContainerCarousel {
-  width: 100vh;
+  height: 100vh;
 }
+
 .img {
-    width :100%;
-    height:100%;
+  background-size: cover;
 }
+
 .button {
   position: absolute;
   right: 0;
@@ -17,11 +22,12 @@
   margin-right: 15%;
   margin-left: 43%;
   width:15vw;
-  background-color:#811453 !important;
+  background-color: !important;
   border-radius : 50px !important;
-  font-family: 'Love Ya Like A Sister', cursive !important;  
-  font-size : 30px !important;
+  font-family: 'East Sea Dokdo' !important;
+  font-size : 2rem !important;
 }
+
 .h1 {
     position: absolute;
     right: 0;
@@ -31,10 +37,19 @@
     display: flex;
     justify-content: center;
     padding-left: 0;  
-    margin-right: 15%;
-    margin-left: 15%;
-    font-size : 60px;
-    background-color : rgb(255,255,255, 0.5);
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size : 3rem;
+    color: white;
+    background-color : rgba(190, 83, 34, 0.6);
     border-radius : 50px;
-    font-family: 'Love Ya Like A Sister', cursive;  
+    font-family: 'Livvic';  
+    font-weight: bold;  
+
 }
+
+.arrowCarousel {
+  background-color: #B9D6DD;
+  width: 10% !important;
+}
+
