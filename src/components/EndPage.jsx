@@ -76,7 +76,7 @@ function EndPage() {
 
         <Row className={styles.containerBouton}>
           <Col>
-            <Button className={styles.buttonFinish} tag={Link} to='/'color="danger">Restart the trip</Button>
+            <Button className={styles.buttonFinish} tag={Link} to='/'color="info">Restart the trip</Button>
           </Col>
         </Row>
       </Container>

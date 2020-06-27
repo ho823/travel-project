@@ -32,7 +32,8 @@ class Modals extends React.Component {
     const {dataApi} = this.state
     if(this.state.isLoading){
       return(
-        <div className={styles.loadingSpinner}><Spinner color="danger" /></div>
+        <div className={styles.loadingSpinner}><Spinner type="grow"
+         style={{ width: '3rem', height: '3rem' }} color="danger" /></div>
       )}
       
       return (

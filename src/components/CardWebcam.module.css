@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500;700&display=swap');
+
+
 .video {
     padding-left: 1vw;
     padding-right :1vw;
@@ -5,6 +8,7 @@
 }
 .text {
     text-align:center;
-    font-family: 'Love Ya Like A Sister', cursive !important; 
+    font-family: 'Kodchasan' !important; 
+    font-size: bold;
     font-size : 2vw;
 }

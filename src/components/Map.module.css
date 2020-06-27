@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
 .pin {
     content: url(./img/pinred.png);
     position: absolute;
@@ -13,27 +16,26 @@
     min-height: 100%;
 
 }
-.visited:visited {
-    filter: opacity(40%)
-}
+
 .pin2 {
     position:absolute;
     font-weight: bold
 }
+
 .pin:hover {
     cursor:pointer;
 }
+
 .pin2:hover{
     cursor: pointer;
 }
 
 
 .buttonEnd {
-    margin-top:45vw !important;
-    font-family: 'Love Ya Like A Sister', cursive !important;
+    margin-top:40rem !important;
+    font-family: 'East Sea Dokdo' !important;
     border-radius : 50px !important;
-    background-color:#811453 !important;
-    font-size : 30px !important;
+    font-size : 2rem !important;
 }
 
 .chemin1 {
@@ -42,7 +44,7 @@
     position: absolute;
     top: 152px;
     left: 556px;
-    border: 4px black;
+    border: 4px#333333;
     border-style: dashed;
 }
 
@@ -52,7 +54,7 @@
     position: absolute;
     top: 153px;
     left: 73px;
-    border: 4px black;
+    border: 4px#333333;
     border-style: dashed;
 }
 
@@ -62,7 +64,7 @@
     position: absolute;
     top: 317px;
     left: 30px;
-    border: 4px black;
+    border: 4px #333333;
     border-style: dashed;
 }
 
@@ -72,7 +74,7 @@
     position: absolute;
     top: 291px;
     left: 515px;
-    border: 4px black;
+    border: 4px #333333;
     border-style: dashed;
 }
 
@@ -82,7 +84,7 @@
     position: absolute;
     top: 163px;
     left: 655px;
-    border: 4px black;
+    border: 4px #333333;
     border-style: dashed;
 }
 
@@ -92,7 +94,7 @@
     position: absolute;
     top: 314px;
     left: 843px;
-    border: 4px black;
+    border: 4px #333333;
     border-style: dashed;
 }
 
@@ -102,7 +104,7 @@
     position: absolute;
     top: 382px;
     left: 863px;
-    border: 4px black;
+    border: 4px #333333;
     border-style: dashed;
 }
 
@@ -112,7 +114,7 @@
     position: absolute;
     top: 439px;
     left: 790px;
-    border: 4px black;
+    border: 4px #333333;
     border-style: dashed;
 }
 
@@ -122,7 +124,7 @@
     position: absolute;
     top: 528px;
     left: 808px;
-    border: 4px black;
+    border: 4px #333333;
     border-style: dashed;
 }
 
@@ -132,7 +134,7 @@
     position: absolute;
     top: 412px;
     left: 964px;
-    border: 4px black;
+    border: 4px #333333;
     border-style: dashed;
 }
 
@@ -142,7 +144,7 @@
     position: absolute;
     top: 216px;
     left: 1071px;
-    border: 4px black;
+    border: 4px #333333;
     border-style: dashed;
 }
 
